@@ -13,7 +13,7 @@ description: >-
   SvelteKit, Astro, Hono, and 20+ other frameworks. An optional managed
   dashboard with audit logs, breached-password detection, bot-protection, and
   self-service enterprise SSO is available at dash.better-auth.com.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Authentication
   - Authorization
