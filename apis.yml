@@ -96,6 +96,8 @@ apis:
       - type: Documentation
         url: https://www.better-auth.com/docs
 common:
+  - type: DomainSecurity
+    url: security/better-auth-domain-security.yml
   - type: Website
     url: https://www.better-auth.com/
   - type: Documentation
@@ -110,6 +112,8 @@ common:
     url: https://dash.better-auth.com
   - type: Discord
     url: https://discord.gg/better-auth
+  - url: https://better-auth.com/blog/rss.xml
+    type: Blog
 integrations:
   - name: Next.js
   - name: Nuxt
