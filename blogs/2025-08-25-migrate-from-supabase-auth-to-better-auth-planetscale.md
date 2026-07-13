@@ -5,4 +5,4 @@ date: "2025-08-25"
 author: "Dagmawi Esayas"
 feed_url: "https://better-auth.com/blog/rss.xml"
 ---
-This migration guide walks through moving authentication from Supabase Auth to Better Auth running on PlanetScale PostgreSQL. It covers the concrete steps needed to replicate Supabase's auth behavior in Better Auth.
+This migration guide aims to guide you move your auth from Supabase Auth to Better Auth on PlanetScale PostgreSQL.
