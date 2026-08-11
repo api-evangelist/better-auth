@@ -108,6 +108,19 @@ apis:
       - type: Documentation
         url: https://www.better-auth.com/docs
 common:
+  - type: IssueTracker
+    url: https://github.com/better-auth/better-auth/issues
+  - type: Releases
+    url: https://github.com/better-auth/better-auth/releases
+  - type: SecurityPolicy
+    url: https://github.com/better-auth/better-auth/blob/main/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/better-auth/better-auth/blob/main/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/better-auth/better-auth/blob/main/CONTRIBUTING.md
+  - type: License
+    name: MIT
+    url: https://github.com/better-auth/better-auth/blob/main/LICENSE
   - type: DomainSecurity
     url: security/better-auth-domain-security.yml
   - type: Website
