@@ -2,17 +2,13 @@ aid: better-auth
 url: https://raw.githubusercontent.com/api-evangelist/better-auth/refs/heads/main/apis.yml
 name: Better Auth
 kind: company
-description: >-
-  Better Auth is a framework-agnostic authentication and authorization library
-  for TypeScript. Unlike hosted identity providers, Better Auth runs inside
-  the developer's own application against their own database (Postgres,
-  MySQL, SQLite, MongoDB via adapters). The core library supports credential,
-  social, magic-link, OTP, passkey, and SSO sign-in, with plugins for
-  organizations / teams / RBAC, API keys, two-factor authentication, JWT,
-  generic OAuth, SAML / SSO, and SCIM. It integrates with Next.js, Nuxt,
-  SvelteKit, Astro, Hono, and 20+ other frameworks. An optional managed
-  dashboard with audit logs, breached-password detection, bot-protection, and
-  self-service enterprise SSO is available at dash.better-auth.com.
+description: Better Auth is a framework-agnostic authentication and authorization library for TypeScript.
+  Unlike hosted identity providers, Better Auth runs inside the developer's own application against their
+  own database (Postgres, MySQL, SQLite, MongoDB via adapters). The core library supports credential,
+  social, magic-link, OTP, passkey, and SSO sign-in, with plugins for organizations / teams / RBAC, API
+  keys, two-factor authentication, JWT, generic OAuth, SAML / SSO, and SCIM. It integrates with Next.js,
+  Nuxt, SvelteKit, Astro, Hono, and 20+ other frameworks. An optional managed dashboard with audit logs,
+  breached-password detection, bot-protection, and self-service enterprise SSO is available at dash.better-auth.com.
 deliveryModel:
   model: self-hosted
   license: MIT
@@ -39,142 +35,136 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/better-auth.png
 tags:
-  - Authentication
-  - Authorization
-  - TypeScript
-  - Library
-  - Open-Source
-  - SSO
-  - Passkeys
+- Authentication
+- Authorization
+- TypeScript
+- Library
+- Open-Source
+- SSO
+- Passkeys
+- Identity Federation
 tags_raw:
-  - Authentication
-  - Authorization
-  - TypeScript
-  - Library
-  - Open Source
-  - SSO
-  - Passkeys
+- Authentication
+- Authorization
+- TypeScript
+- Library
+- Open Source
+- SSO
+- Passkeys
+- Identity Federation
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-09-16'
 specificationVersion: '0.23'
 apis:
-  - aid: better-auth:library
-    name: Better Auth Library
-    description: >-
-      Core TypeScript library distributed as the `better-auth` npm package.
-      Configured in the application backend to expose sign-in / sign-up /
-      session endpoints that the developer mounts under their own domain;
-      there is no Better-Auth-hosted REST API for the core library. Includes
-      a typed client (`better-auth/client`) for use from frontend code.
-    humanURL: https://www.better-auth.com/docs
-    baseURL: https://github.com/better-auth/better-auth
-    tags:
-      - Library
-      - TypeScript
-      - SDK
-      - Self-Hosted
-    properties:
-      - type: Documentation
-        url: https://www.better-auth.com/docs
-      - type: Repository
-        url: https://github.com/better-auth/better-auth
-      - type: Package
-        url: https://www.npmjs.com/package/better-auth
-  - aid: better-auth:cli
-    name: Better Auth CLI
-    description: >-
-      Project initialization and schema-migration CLI invoked with
-      `npx @better-auth/cli` (or `npx auth init`). Generates database schema,
-      configures the auth route handler, and scaffolds plugin wiring.
-    humanURL: https://www.better-auth.com/docs/cli
-    baseURL: https://github.com/better-auth/better-auth
-    tags:
-      - CLI
-      - Tooling
-    properties:
-      - type: Documentation
-        url: https://www.better-auth.com/docs/cli
-  - aid: better-auth:plugins
-    name: Better Auth Plugins
-    description: >-
-      First-party plugin ecosystem covering two-factor authentication,
-      passkeys, magic link, organizations and teams, API keys, generic OAuth,
-      JWT, OpenAPI, admin, and SSO (SAML / OIDC). Plugins extend both the
-      server runtime and the typed client.
-    humanURL: https://www.better-auth.com/docs/plugins
-    baseURL: https://github.com/better-auth/better-auth
-    tags:
-      - Plugins
-      - Extensions
-    properties:
-      - type: Documentation
-        url: https://www.better-auth.com/docs/plugins
-  - aid: better-auth:dashboard
-    name: Better Auth Dashboard (Managed)
-    description: >-
-      Optional managed dashboard at dash.better-auth.com. Adds user management
-      UI, audit logs, security signals (breached-password lookups, bot
-      protection, brute-force detection), and enterprise features such as
-      self-service SSO and SCIM provisioning on top of self-hosted Better
-      Auth deployments.
-    humanURL: https://dash.better-auth.com
-    baseURL: https://dash.better-auth.com
-    tags:
-      - Dashboard
-      - Managed
-      - Enterprise
-      - Audit Logs
-    properties:
-      - type: Documentation
-        url: https://www.better-auth.com/docs
-common:
-  - type: IssueTracker
-    url: https://github.com/better-auth/better-auth/issues
-  - type: Releases
-    url: https://github.com/better-auth/better-auth/releases
-  - type: SecurityPolicy
-    url: https://github.com/better-auth/better-auth/blob/main/SECURITY.md
-  - type: CodeOfConduct
-    url: https://github.com/better-auth/better-auth/blob/main/CODE_OF_CONDUCT.md
-  - type: ContributionGuide
-    url: https://github.com/better-auth/better-auth/blob/main/CONTRIBUTING.md
-  - type: License
-    name: MIT
-    url: https://github.com/better-auth/better-auth/blob/main/LICENSE
-  - type: DomainSecurity
-    url: security/better-auth-domain-security.yml
-  - type: Website
-    url: https://www.better-auth.com/
+- aid: better-auth:library
+  name: Better Auth Library
+  description: Core TypeScript library distributed as the `better-auth` npm package. Configured in the
+    application backend to expose sign-in / sign-up / session endpoints that the developer mounts under
+    their own domain; there is no Better-Auth-hosted REST API for the core library. Includes a typed client
+    (`better-auth/client`) for use from frontend code.
+  humanURL: https://www.better-auth.com/docs
+  baseURL: https://github.com/better-auth/better-auth
+  tags:
+  - Library
+  - TypeScript
+  - SDK
+  - Self-Hosted
+  properties:
   - type: Documentation
     url: https://www.better-auth.com/docs
-  - type: GitHub
+  - type: Repository
     url: https://github.com/better-auth/better-auth
-  - type: GitHubOrg
-    url: https://github.com/better-auth
   - type: Package
     url: https://www.npmjs.com/package/better-auth
-  - type: Dashboard
-    url: https://dash.better-auth.com
-  - type: Discord
-    url: https://discord.gg/better-auth
-  - url: https://better-auth.com/blog/rss.xml
-    type: Blog
+- aid: better-auth:cli
+  name: Better Auth CLI
+  description: Project initialization and schema-migration CLI invoked with `npx @better-auth/cli` (or
+    `npx auth init`). Generates database schema, configures the auth route handler, and scaffolds plugin
+    wiring.
+  humanURL: https://www.better-auth.com/docs/cli
+  baseURL: https://github.com/better-auth/better-auth
+  tags:
+  - CLI
+  - Tooling
+  properties:
+  - type: Documentation
+    url: https://www.better-auth.com/docs/cli
+- aid: better-auth:plugins
+  name: Better Auth Plugins
+  description: First-party plugin ecosystem covering two-factor authentication, passkeys, magic link,
+    organizations and teams, API keys, generic OAuth, JWT, OpenAPI, admin, and SSO (SAML / OIDC). Plugins
+    extend both the server runtime and the typed client.
+  humanURL: https://www.better-auth.com/docs/plugins
+  baseURL: https://github.com/better-auth/better-auth
+  tags:
+  - Plugins
+  - Extensions
+  properties:
+  - type: Documentation
+    url: https://www.better-auth.com/docs/plugins
+- aid: better-auth:dashboard
+  name: Better Auth Dashboard (Managed)
+  description: Optional managed dashboard at dash.better-auth.com. Adds user management UI, audit logs,
+    security signals (breached-password lookups, bot protection, brute-force detection), and enterprise
+    features such as self-service SSO and SCIM provisioning on top of self-hosted Better Auth deployments.
+  humanURL: https://dash.better-auth.com
+  baseURL: https://dash.better-auth.com
+  tags:
+  - Dashboard
+  - Managed
+  - Enterprise
+  - Audit Logs
+  properties:
+  - type: Documentation
+    url: https://www.better-auth.com/docs
+common:
+- type: IssueTracker
+  url: https://github.com/better-auth/better-auth/issues
+- type: Releases
+  url: https://github.com/better-auth/better-auth/releases
+- type: SecurityPolicy
+  url: https://github.com/better-auth/better-auth/blob/main/SECURITY.md
+- type: CodeOfConduct
+  url: https://github.com/better-auth/better-auth/blob/main/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/better-auth/better-auth/blob/main/CONTRIBUTING.md
+- type: License
+  name: MIT
+  url: https://github.com/better-auth/better-auth/blob/main/LICENSE
+- type: DomainSecurity
+  url: security/better-auth-domain-security.yml
+- type: Website
+  url: https://www.better-auth.com/
+- type: Documentation
+  url: https://www.better-auth.com/docs
+- type: GitHub
+  url: https://github.com/better-auth/better-auth
+- type: GitHubOrg
+  url: https://github.com/better-auth
+- type: Package
+  url: https://www.npmjs.com/package/better-auth
+- type: Dashboard
+  url: https://dash.better-auth.com
+- type: Discord
+  url: https://discord.gg/better-auth
+- url: https://better-auth.com/blog/rss.xml
+  type: Blog
 integrations:
-  - name: Next.js
-  - name: Nuxt
-  - name: SvelteKit
-  - name: Astro
-  - name: Hono
-  - name: Remix
-  - name: Express
-  - name: Elysia
-  - name: PostgreSQL
-  - name: MySQL
-  - name: SQLite
-  - name: MongoDB
-  - name: Drizzle
-  - name: Prisma
-  - name: Kysely
+- name: Next.js
+- name: Nuxt
+- name: SvelteKit
+- name: Astro
+- name: Hono
+- name: Remix
+- name: Express
+- name: Elysia
+- name: PostgreSQL
+- name: MySQL
+- name: SQLite
+- name: MongoDB
+- name: Drizzle
+- name: Prisma
+- name: Kysely
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
