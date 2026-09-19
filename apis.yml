@@ -110,6 +110,11 @@ apis:
   humanURL: https://dash.better-auth.com
   baseURL: https://dash.better-auth.com
   tags:
+  - Dashboards
+  - Managed
+  - Enterprise
+  - Audit Logs
+  tags_raw:
   - Dashboard
   - Managed
   - Enterprise
