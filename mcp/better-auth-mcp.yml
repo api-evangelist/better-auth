@@ -16,8 +16,14 @@ deployment:
 tools_count: 2
 tools:
 - name: search_docs
-  description: ''
+  description: 'Search Better Auth documentation and return matching snippets.  Use this tool when you
+    need to: - Find setup guides for authentication providers (email, OAuth, passkeys) - Look up plugin
+    configuration (two-factor, admin, organization) - Fin'
 - name: get_doc
-  description: ''
+  description: 'Get Better Auth documentation content. Returns the latest documentation index if no path
+    is provided, or the full content for a specific page or version index.  Use this tool when you need
+    to: - Browse all pages in the latest documentation'
 tools_source: live tools/list via initialize handshake, 2026-09-12 (signals/audit_mcp_authorship.py --probe)
 authorship: provider
+descriptions_source: live tools/list (authorship probe or saved capture); filled by backfill-tools-from-authorship.py
+  --descriptions, 2026-09-28
