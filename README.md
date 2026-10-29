@@ -1,4 +1,4 @@
-# better-auth
+# Better Auth
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Better Auth — framework-agnostic TypeScript authentication library
+Better Auth is a framework-agnostic authentication and authorization library for TypeScript. Unlike hosted identity providers, Better Auth runs inside the developer's own application against their own database (Postgres, MySQL, SQLite, MongoDB via adapters). The core library supports credential, social, magic-link, OTP, passkey, and SSO sign-in, with plugins for organizations / teams / RBAC, API keys, two-factor authentication, JWT, generic OAuth, SAML / SSO, and SCIM. It integrates with Next.js, Nuxt, SvelteKit, Astro, Hono, and 20+ other frameworks. An optional managed dashboard with audit logs, breached-password detection, bot-protection, and self-service enterprise SSO is available at dash.better-auth.com.
+
+**Areas:** Authentication · Authorization · TypeScript · Library · Open Source · SSO · Passkeys · Identity Federation
+
+## Better Auth on APIs.io
+
+Everything profiled for Better Auth is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/better-auth/](https://apis.io/providers/better-auth/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Better Auth Library](https://apis.io/apis/better-auth/library/) — Core TypeScript library distributed as the `better-auth` npm package. Configured in the application backend to expose sign-in / sign-up / session endpoints…
+- [Better Auth CLI](https://apis.io/apis/better-auth/cli/) — Project initialization and schema-migration CLI invoked with `npx @better-auth/cli` (or `npx auth init`). Generates database schema, configures the auth…
+- [Better Auth Plugins](https://apis.io/apis/better-auth/plugins/) — First-party plugin ecosystem covering two-factor authentication, passkeys, magic link, organizations and teams, API keys, generic OAuth, JWT, OpenAPI,…
+- [Better Auth Dashboard (Managed)](https://apis.io/apis/better-auth/dashboard/) — Optional managed dashboard at dash.better-auth.com. Adds user management UI, audit logs, security signals (breached-password lookups, bot protection,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [better-auth](https://apis.io/servers/better-auth/better-auth/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Better Auth Domain Security](https://apis.io/security/better-auth/better-auth-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Better Auth Plans Pricing](https://apis.io/plans/better-auth/better-auth-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Better Auth Rate Limits](https://apis.io/rate-limits/better-auth/better-auth-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Better Auth Finops](https://apis.io/finops/better-auth/better-auth-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.better-auth.com/)
+- [Documentation](https://www.better-auth.com/docs)
+- [Blog](https://better-auth.com/blog/rss.xml)
+
+## API Evangelist rating
+
+**Kin Score 21.8** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 5.3 |
+
+**Agent readiness 9.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.9** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/better-auth/](https://apis.io/providers/better-auth/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Better Auth: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/better-auth/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
